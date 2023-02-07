@@ -48,7 +48,7 @@ export default function Home() {
         {isLoading && <Loader />}
 
         {isError && <ErrorHandle error={error} />}
-        
+         
       </main>
     </>
   )

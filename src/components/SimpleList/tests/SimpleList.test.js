@@ -2,7 +2,7 @@ import userEvent from '@testing-library/user-event'
 import { render, screen, waitFor } from '@testing-library/react'
 import SimpleList from '../SimpleList'
 
-const mockData = ['btc']
+const mockData = ['btc'] 
 
 describe('SimpleList Component', () => {
   beforeEach(() => {
